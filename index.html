@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catman</title>
+  <style>
+    body { font-family: Arial, sans-serif; text-align: center; background: #f3f5f7; color: #222; }
+    .hero { margin-top: 10vh; }
+    h1 { font-size: 4rem; letter-spacing: 2px; }
+    .cat {
+      font-size: 8rem; 
+      animation: wave 2s infinite ease-in-out alternate;
+      display: inline-block;
+      margin-top: 2rem;
+    }
+    @keyframes wave {
+      0% { transform: rotate(-10deg); }
+      100% { transform: rotate(10deg); }
+    }
+    .desc { margin-top: 2rem; font-size: 1.5rem; color: #555; }
+  </style>
+</head>
+<body>
+  <div class="hero">
+    <h1>Catman</h1>
+    <div class="cat">🐱</div>
+    <div class="desc">Welcome to your GitHub Pages site!</div>
+    <div style="margin-top:2rem; color: #999; font-size: 1rem;">Powered by GitHub Pages</div>
+  </div>
+</body>
+</html>
